@@ -79,22 +79,20 @@ Si Notepad++ no detecta la extensión, seleccioná manualmente: **Lenguaje → D
 
 ## Paleta de colores
 
+Sigue la paleta nativa de Notepad++ (la misma que el theme light default usa para C/C++), por lo que Itsuki se ve visualmente integrado con el resto de tus lenguajes.
+
 | Elemento | Color | Estilo |
 |---|---|---|
-| Control de flujo | Azul | Negrita |
-| Declaraciones / POO | Celeste | Negrita |
-| Tipos | Turquesa | Negrita |
-| Literales (`true`, `null`) | Magenta | — |
-| Preprocesador | Marrón | — |
-| Bibliotecas estándar | Violeta / Marrón | — |
+| Keywords del lenguaje (control, declaraciones, POO, tipos, literales) | Azul | Negrita |
+| Bibliotecas estándar y `test_` | Azul | — |
+| Preprocesador | Violeta | — |
 | Comentarios | Verde | Itálica |
-| Números | Naranja | — |
-| Cadenas `"` | Marrón | — |
-| Caracteres `'` | Oliva | — |
-| Interpolación `f"` / `$"` | Violeta | — |
-| Operadores y llaves | Rojo | Negrita |
+| Números (decimal, hex, sufijo `f`) | Naranja | — |
+| Cadenas `"` y caracteres `'` | Gris | — |
+| Interpolación `f"` / `$"` | Gris | Itálica |
+| Operadores y llaves | Azul marino | Negrita |
 
-> La paleta está pensada para el tema claro por defecto de Notepad++. Si usás tema oscuro, personalizá los colores desde **Definir lenguaje... → Estilos**.
+> Los fondos se adaptan automáticamente al modo oscuro de Notepad++ 8.x. Si preferís colores ajustados a medida para un tema oscuro específico, pedí la variante **Dark** del UDL.
 
 ---
 

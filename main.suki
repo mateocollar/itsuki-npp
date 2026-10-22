@@ -1,0 +1,18 @@
+#include <fundamental.huki>
+
+struct Punto {
+    var x: int;
+    var y: int;
+};
+
+fn main() -> void {
+    var p: struct Punto;
+    var nombre: char[64];
+
+    print("¿Cómo te llamás? ");
+    read_str(nombre);
+
+    for (var i: int = 0; i < 3; i++) {
+        println(f"Hola {nombre}, i = {i}");
+    }
+}
